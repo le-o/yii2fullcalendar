@@ -20,8 +20,8 @@
 	"require": {
 		"yiisoft/yii2": ">=2.0.14",
 		"yiisoft/yii2-jui" : "^2.0",
-		"bower-asset/fullcalendar": "^3.10",
-		"bower-asset/moment" : "^2.25"
+		"le-o/fullcalendar": "^3.10",
+		"le-o/moment" : "^2.25"
 	},
 	"require-dev": {
 		"codeception/codeception": "*"
