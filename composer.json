@@ -1,27 +1,27 @@
 {
-	"name": "philippfrenzel/yii2fullcalendar",
-	"description": "Yii2 fullcalendar Widgets",
+	"name": "le-o/yii2fullcalendar",
+	"description": "Yii2 fullcalendar Widgets (philippfrenzel fork)",
 	"keywords": ["yii2", "fullcalendar","widget"],
 	"homepage": "http://www.frenzel.net/",
 	"type": "yii2-extension",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Philipp Frenzel",
-			"email": "philipp@frenzel.net",
-			"homepage": "http://www.frenzel.net/",
+			"name": "Léonard Décaillet",
+			"email": "info@d-web.ch",
+			"homepage": "https://www.d-web.ch",
 			"role": "Developer"
 		}
 	],
 	"support": {
-		"source": "https://github.com/philippfrenzel/yii2fullcalendar"
+		"source": "https://github.com/le-o/yii2fullcalendar"
 	},
 	"minimum-stability": "stable",
 	"require": {
-		"yiisoft/yii2": "*",
-		"yiisoft/yii-jquery" : "*",
-		"bower-asset/fullcalendar": "4.0.2",
-		"bower-asset/fullcalendar-scheduler" : "4.0.1@stable"
+		"yiisoft/yii2": ">=2.0.14",
+		"yiisoft/yii-jui" : "^2.0",
+		"bower-asset/fullcalendar": "^3.10",
+		"bower-asset/moment" : "^2.25"
 	},
 	"require-dev": {
 		"codeception/codeception": "*"
@@ -36,9 +36,6 @@
 		  }
 		}
 	    }
-	},
-	"conflict": {
-		"bower-asset/fullcalendar": "^4.3.0"
 	},
 	"autoload": {
 		"psr-4": { "yii2fullcalendar\\": "" }

@@ -1,8 +1,10 @@
 yii2fullcalendar
 ================
+This is fork from [philippfrenzel/yii2fullcalendar](https://github.com/philippfrenzel/yii2fullcalendar) with some minor asset changes 
+
 JQuery Fullcalendar Yii2 Extension
 JQuery from: http://arshaw.com/fullcalendar/
-Version 4.0.2
+Version 4.0.3
 License MIT
 
 JQuery Documentation:
@@ -23,12 +25,12 @@ Package is although registered at packagist.org - so you can just add one line o
 
 add the following line to your composer.json require section:
 ```json
-  "philippfrenzel/yii2fullcalendar":"*",
+  "le-o/yii2fullcalendar":"*",
 ```
 
 or run:
 ```
-$ php composer.phar require philippfrenzel/yii2fullcalendar "*"
+$ php composer.phar require le-o/yii2fullcalendar "*"
 ```
 
 And ensure, that you have the following plugin installed global:
@@ -38,6 +40,7 @@ And ensure, that you have the following plugin installed global:
 Changelog
 ---------
 
+16-09-2020 Updated to latest 4.0.3 Version with asset fixes
 17-04-2019 Updated to latest 4.0.2 Stable Version of the library
 19-01-2017 Updated to include non-standard fields
 29-11-2014 Updated to latest 2.2.3 Version of the library
